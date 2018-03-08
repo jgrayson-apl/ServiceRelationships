@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="//s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.8/css/calcite-web.min.css">
+    <link rel="stylesheet" href="//js.arcgis.com/4.6/esri/css/main.css">
+    <link rel="stylesheet" href="./css/boilerplate.css">
+    <script type="text/javascript" src="./js/dojoConfig.js"></script>
+    <script type="text/javascript" src="//js.arcgis.com/4.6/"></script>
+    <script type="text/javascript">
+      require([
+        "boilerplate",
+        "dojo/text!config/config.json",
+        "dojo/text!boilerplate/settings.json",
+        "application"
+      ], function (Boilerplate, configSettings, boilerplateSettings, app) {
+
+        new Boilerplate(JSON.parse(configSettings), JSON.parse(boilerplateSettings)).then(function (boilerplateResponse) {
+          const exampleApp = new app();
+          exampleApp.init(boilerplateResponse);
+        });
+
+      });
+    </script>
+  </head>
+  <body>
+
+
+    <div class="js-modal modal-overlay" data-modal="app-details-dialog">
+      <div class="modal-content column-12" role="dialog" aria-labelledby="modal" role="dialog">
+        <a class="js-modal-toggle right icon-ui-close" href="#" aria-label="close-modal"></a>
+        <h3 class='trailer-half'>Boilerplate Template and Calcite Web</h3>
+        <p>This application template loads a web map or web scene and provides basic mapping capabilities via the ArcGIS API for JavaScript 4.x.</p>
+        <div>This application is built using:
+          <ul>
+            <li>
+              <a href="https://developers.arcgis.com/javascript/" target="_blank">Esri ArcGIS API for Javascript 4.x</a>
+            </li>
+            <li>
+              <a href="https://github.com/Esri/application-boilerplate-js" target="_blank">Esri Application Boilerplate Template</a>
+            </li>
+            <li>
+              <a href="http://esri.github.io/calcite-web/" target="_blank">Esri Calcite Web framework</a>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/esri_science_of_where.png" class="left">
+        <div class="text-right">
+          <button class="btn js-modal-toggle">OK</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="drawer drawer-left js-drawer" data-drawer="source-drawer" tabindex="0">
+      <nav class="drawer-nav" role="navigation">
+
+        <div id="sources-panel" class="panel panel-white">
+          <label class="trailer-0">
+            Select the source groups or folders:
+          </label>
+          <div id="sources-tabs" class="tabs-transparent leader-half trailer-half js-tab-group" data-tab="content-tabs">
+            <nav class="tab-nav">
+              <a id="tab-groups" class="tab-title js-tab is-active">Groups</a>
+              <a id="tab-folders" class="tab-title js-tab">Folders</a>
+            </nav>
+            <section id="source-contents" class="tab-contents">
+              <article class="tab-section js-tab-section is-active">
+                <div class="panel panel-white panel-no-border">
+                  <fieldset id="groups-set" class="fieldset-checkbox">
+                    <!--<legend class="avenir-demi">Select Groups</legend>-->
+                  </fieldset>
+                </div>
+              </article>
+              <article class="tab-section js-tab-section">
+                <div class="panel panel-white panel-no-border">
+                  <fieldset id="folders-set" class="fieldset-checkbox">
+                    <!--<legend class="avenir-demi">Select Folders</legend>-->
+                  </fieldset>
+                </div>
+              </article>
+            </section>
+          </div>
+
+          <button class="btn btn-fill js-drawer-toggle">OK</button>
+
+        </div>
+
+      </nav>
+    </div>
+
+    <!-- BODY WRAPPER -->
+    <div class="wrapper">
+
+      <!-- TOP NAVIGATION -->
+      <header class="top-nav">
+        <div class="grid-container">
+          <div class="column-24">
+
+            <span id="app-title-node" class="top-nav-title font-size-2 text-blue avenir-bold"></span>
+
+            <nav class="top-nav-list" role="navigation" aria-labelledby="topnav">
+              <!--<span class="top-nav-link js-drawer-toggle esri-interactive" title="Select content sources" data-drawer="source-drawer">Content Sources</span>-->
+              <!--<div class="dropdown js-dropdown">
+                <button class="btn btn-transparent dropdown-btn js-dropdown-toggle top-nav-link" tabindex="0" aria-haspopup="true" aria-expanded="false">
+                  Actions
+                  <span class="icon-ui-down"></span>
+                </button>
+                <nav class="dropdown-menu" role="menu">
+                  <span class="dropdown-title">Map</span>
+                  <a href="#opt-1" class="dropdown-link" role="menu-item">Option 1</a>
+                  <a href="#opt-2" class="dropdown-link" role="menu-item">Option 2</a>
+                  <a href="#opt-3" class="dropdown-link" role="menu-item">Option 3</a>
+                  <span class="dropdown-title">Analysis</span>
+                  <a href="#opt-4" class="dropdown-link" role="menu-item">Option 4</a>
+                  <a href="#opt-5" class="dropdown-link" role="menu-item">Option 5</a>
+                </nav>
+              </div>-->
+            </nav>
+
+            <!-- APP DETAILS -->
+            <nav id="app-details-node" class="top-nav-list right" role="navigation">
+
+              <a id="sign-in-node" class="top-nav-link icon-ui-user margin-left-1" href="#">Sign In</a>
+
+              <div id="user-node" class="dropdown js-dropdown hide">
+                <a class="top-nav-link icon-ui-user margin-left-1 js-dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" href="#">
+                  <span id="user-firstname-node"></span>
+                </a>
+                <nav class="dropdown-menu dropdown-right" role="menu">
+                  <span class="dropdown-title">
+                    <span id="user-fullname-node"></span>
+                    <br>
+                    <img id="user-thumb-node">
+                    <small><span id="username-node"></span></small>
+                  </span>
+                  <a id="sign-out-node" href="#" class="dropdown-link margin-left-2 icon-ui-sign-out" role="menu-item">Sign Out</a>
+                </nav>
+              </div>
+
+              <span class="top-nav-link icon-ui-description js-modal-toggle esri-interactive" data-modal="app-details-dialog"></span>
+            </nav>
+
+
+          </div>
+        </div>
+      </header>
+
+      <!-- REST OF BODY -->
+      <div class="grid-container leader-half trailer-half">
+
+        <div class="column-24 trailer-half">
+
+          <div class="panel trailer-half">
+
+            <div class="panel panel-no-padding panel-no-border">
+              <label class="trailer-0">
+                <span class="text-blue avenir-demi">Filters</span>
+                <button class="hide"></button>
+                <button id="clear-filters-btn" class="btn btn-clear right">Clear Filters</button>
+              </label>
+            </div>
+
+            <div class="panel panel-no-border padding-leader-0 padding-trailer-0 trailer-0">
+
+              <div class="input-group">
+                <span class="input-group-button text-right">&nbsp;Server:&nbsp;</span>
+                <select id="server-select" class="input-group-input">
+                  <option value="NO-SERVER-FILTER">[ No Server Filter ]</option>
+                </select>
+                <!--<span class="input-group-button">
+                  <span id="clear-server-filter" class="icon-ui-close icon-ui-blue esri-interactive margin-left-1" title="Clear Server Filter"></span>
+                </span>-->
+              </div>
+
+              <div class="block-group block-group-2-up trailer-0">
+                <div class="block">
+                  <div class="input-group">
+                    <span class="input-group-button text-right">&nbsp;&nbsp;&nbsp;&nbsp;User:&nbsp;</span>
+                    <select id="user-select" class="input-group-input">
+                      <option value="NO-USER-FILTER">[ No User Filter ]</option>
+                    </select>
+                    <!--<span class="input-group-button">
+                      <span id="clear-user-filter" class="icon-ui-close icon-ui-blue esri-interactive margin-left-1" title="Clear User Filter"></span>
+                    </span>-->
+                  </div>
+                </div>
+                <div class="block">
+                  <div class="input-group">
+                    <span class="input-group-button text-right">Access:&nbsp;</span>
+                    <select id="access-select" class="input-group-input">
+                      <option value="NO-ACCESS-FILTER">[ No Access Filter ]</option>
+                      <option value="private">Private</option>
+                      <option value="shared">Shared to Groups</option>
+                      <option value="org">Shared to Organization</option>
+                      <option value="public">Shared to Public</option>
+                    </select>
+                    <!--<span class="input-group-button">
+                      <span id="clear-access-filter" class="icon-ui-close icon-ui-blue esri-interactive margin-left-1" title="Clear Access Filter"></span>
+                    </span>-->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="panel trailer-half">
+            <label class="trailer-quarter">
+              <span class="text-blue avenir-demi">Services</span>
+              <mark id="items-count" class="label right">0</mark>
+            </label>
+            <div id="items-table" class="overflow-auto">
+              <table class="table-blue trailer-0">
+                <thead>
+                  <tr>
+                    <th>Url</th>
+                    <th class="text-center">Related</th>
+                  </tr>
+                </thead>
+                <tbody id="items-node"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="panel trailer-half">
+            <label class="trailer-quarter">
+              <span class="text-blue avenir-demi">Related Items</span>
+              <span id="clear-related-items" class="icon-ui-close icon-ui-blue esri-interactive right" title="Clear Related Items"></span>
+            </label>
+            <div id="related-table" class="overflow-auto">
+              <table class="table-blue trailer-0">
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th class="text-center">Owner</th>
+                    <th class="text-center">Access</th>
+                    <th class="text-right">Num Views</th>
+                    <th class="text-right">Last Modified</th>
+                  </tr>
+                </thead>
+                <tbody id="related-node"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- NOTIFICATIONS -->
+    <div id="notifications-node"></div>
+
+  </body>
+</html>
+

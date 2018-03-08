@@ -1,0 +1,3209 @@
+{
+  "nodes": [
+    {
+      "id": "0c34a1d37c3442e795484b12d0e238a4",
+      "title": "Applications Prototype Lab",
+      "size": 20,
+      "type": "Group",
+      "index": 0,
+      "weight": 31,
+      "x": 465.2938422065316,
+      "y": 1031.6804637247185,
+      "px": 514.0983589235775,
+      "py": 896.3499610698665
+    },
+    {
+      "id": "https://livefeeds.arcgis.com",
+      "title": "https://livefeeds.arcgis.com",
+      "size": 7,
+      "type": "Server",
+      "index": 1,
+      "weight": 2,
+      "x": 1277.5687861173135,
+      "y": 371.01284196691887,
+      "px": 1284.4974691374234,
+      "py": 347.1727779595779
+    },
+    {
+      "id": "https://livefeeds.arcgis.com/arcgis/rest/services/LiveFeeds/NOAA_METAR_current_wind_speed_direction/MapServer",
+      "title": "/arcgis/rest/services/LiveFeeds/NOAA_METAR_current_wind_speed_direction/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 2,
+      "weight": 1,
+      "x": 1139.4960027984232,
+      "y": 252.39648899514677,
+      "px": 1147.2067825757217,
+      "py": 237.22396702338773
+    },
+    {
+      "id": "29d3ea0ef52a43abab68be309479f2ac",
+      "title": "Current Wind and Weather Conditions",
+      "type": "Map Service",
+      "size": 7,
+      "index": 3,
+      "weight": 2,
+      "x": 862.5111990836023,
+      "y": 503.23424976373593,
+      "px": 970.7981848489119,
+      "py": 402.680728736663
+    },
+    {
+      "id": "https://aom-us.nearmap.com",
+      "title": "https://aom-us.nearmap.com",
+      "size": 7,
+      "type": "Server",
+      "index": 4,
+      "weight": 2,
+      "x": 1216.7175662492866,
+      "y": 437.42215367416435,
+      "px": 1235.1076263719053,
+      "py": 484.0085610973804
+    },
+    {
+      "id": "https://aom-us.nearmap.com/arcgis/rest/services/nearmap_us/ImageServer",
+      "title": "/arcgis/rest/services/nearmap_us/ImageServer",
+      "size": 5,
+      "type": "Service",
+      "index": 5,
+      "weight": 1,
+      "x": 1207.667080876145,
+      "y": 634.8283747000082,
+      "px": 1217.1140831545226,
+      "py": 663.4422424503107
+    },
+    {
+      "id": "8c03e0f13f524128abe36beaf1c76d52",
+      "title": "Nearmap US PhotoMaps",
+      "type": "Image Service",
+      "size": 7,
+      "index": 6,
+      "weight": 2,
+      "x": 837.8922279765688,
+      "y": 489.3402114413419,
+      "px": 958.9856079470044,
+      "py": 491.3589429033634
+    },
+    {
+      "id": "http://maps.esri.com",
+      "title": "http://maps.esri.com",
+      "size": 7,
+      "type": "Server",
+      "index": 7,
+      "weight": 32,
+      "x": 1179.5377833133834,
+      "y": 1319.521093276806,
+      "px": 1109.2503476789625,
+      "py": 1344.6261586557841
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/ID_Awards/MapServer",
+      "title": "/APL6/rest/services/Recovery_IDCO/ID_Awards/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 8,
+      "weight": 1,
+      "x": -2015.008375364048,
+      "y": -1142.87246696139,
+      "px": -2057.154876255112,
+      "py": -1175.8350559213181
+    },
+    {
+      "id": "10082fa3b2714cc68a0f4950c7d848c9",
+      "title": "Recovery awards: state of Idaho",
+      "type": "Map Service",
+      "size": 7,
+      "index": 9,
+      "weight": 2,
+      "x": 1119.9952106443434,
+      "y": 945.2906391590195,
+      "px": 1031.1162836439973,
+      "py": 829.6230840141753
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/CO_Awards/MapServer",
+      "title": "/APL6/rest/services/Recovery_IDCO/CO_Awards/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 10,
+      "weight": 1,
+      "x": 1661.1594207394492,
+      "y": 544.859046390885,
+      "px": 1472.6944554760532,
+      "py": 455.05402329362744
+    },
+    {
+      "id": "3ad6730e8ccc410780e0c85cbc3553c8",
+      "title": "Recovery Awards: state of Colorado",
+      "type": "Map Service",
+      "size": 7,
+      "index": 11,
+      "weight": 2,
+      "x": 1088.9267772595738,
+      "y": 956.735998722288,
+      "px": 996.1539826929315,
+      "py": 843.81406676604
+    },
+    {
+      "id": "http://maps.esri.com/apl14/rest/services/Medicare/HealthCareSpending/MapServer",
+      "title": "/apl14/rest/services/Medicare/HealthCareSpending/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 12,
+      "weight": 1,
+      "x": -657.2518043953603,
+      "y": 1909.9335482703925,
+      "px": -745.8263924630647,
+      "py": 1759.0495168057594
+    },
+    {
+      "id": "e39f8e6722f54344bde5ee626661aae5",
+      "title": "HealthCareSpending",
+      "type": "Map Service",
+      "size": 7,
+      "index": 13,
+      "weight": 2,
+      "x": 1064.151886677236,
+      "y": 964.242073966833,
+      "px": 970.3154682101803,
+      "py": 852.8218856555516
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/CO_Zips/MapServer",
+      "title": "/APL6/rest/services/Recovery_IDCO/CO_Zips/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 14,
+      "weight": 1,
+      "x": 2100.7079206868825,
+      "y": 514.7468206105642,
+      "px": 1893.8371592815704,
+      "py": 425.7212925392329
+    },
+    {
+      "id": "d6964807e9bd417e88c436da81369bd9",
+      "title": "Recovery awards aggregated by zip code: state of Colorado",
+      "type": "Map Service",
+      "size": 7,
+      "index": 15,
+      "weight": 2,
+      "x": 1043.7244021772958,
+      "y": 969.0170092290725,
+      "px": 950.2464498209832,
+      "py": 858.8550189758502
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/ID_Zips/MapServer",
+      "title": "/APL6/rest/services/Recovery_IDCO/ID_Zips/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 16,
+      "weight": 1,
+      "x": -927.2951833062884,
+      "y": 1633.2578990693373,
+      "px": -1004.4408361737239,
+      "py": 1495.9602861515468
+    },
+    {
+      "id": "bb14f55e5ade476b8e3901348101f7f1",
+      "title": "Recovery awards aggregated by zip code: state of Idaho",
+      "type": "Map Service",
+      "size": 7,
+      "index": 17,
+      "weight": 2,
+      "x": 1020.4426893508153,
+      "y": 974.6011931642075,
+      "px": 928.1368004996057,
+      "py": 865.3297984762452
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/ID_Counties/MapServer",
+      "title": "/APL6/rest/services/Recovery_IDCO/ID_Counties/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 18,
+      "weight": 1,
+      "x": -5082.141737380008,
+      "y": 1138.7380806098101,
+      "px": -5004.894562756898,
+      "py": 1021.2546302440554
+    },
+    {
+      "id": "d991cdb605024f09b0f149133f315307",
+      "title": "Recovery awards aggregated by county: state of Idaho",
+      "type": "Map Service",
+      "size": 7,
+      "index": 19,
+      "weight": 2,
+      "x": 992.4100378411472,
+      "y": 976.2308814383839,
+      "px": 901.9077986613512,
+      "py": 869.7274822496831
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/CO_Counties/MapServer",
+      "title": "/APL6/rest/services/Recovery_IDCO/CO_Counties/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 20,
+      "weight": 1,
+      "x": 2192.6492031449006,
+      "y": 4038.9719189904667,
+      "px": 1991.4119755995657,
+      "py": 3805.3609465453387
+    },
+    {
+      "id": "15133eac906f45faa26c45fc2c65f2be",
+      "title": "Recovery awards aggregated by county: state of Colorado",
+      "type": "Map Service",
+      "size": 7,
+      "index": 21,
+      "weight": 2,
+      "x": 974.9265824203634,
+      "y": 992.6767172762525,
+      "px": 883.3368396808632,
+      "py": 883.4269059639324
+    },
+    {
+      "id": "http://maps.esri.com/APL5/rest/services/FedContractHeatMaps/HeatMap_2010/MapServer",
+      "title": "/APL5/rest/services/FedContractHeatMaps/HeatMap_2010/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 22,
+      "weight": 1,
+      "x": 2520.691765659325,
+      "y": -182.8186422018279,
+      "px": 2304.238541582846,
+      "py": -243.32541874315066
+    },
+    {
+      "id": "f6c64004c0f94987a0ec8b9fe8117d7b",
+      "title": "Federal Contracts HeatMap 2010",
+      "type": "Map Service",
+      "size": 7,
+      "index": 23,
+      "weight": 2,
+      "x": 948.0835644379457,
+      "y": 992.1935056322772,
+      "px": 859.4415160180838,
+      "py": 888.3550639643738
+    },
+    {
+      "id": "http://maps.esri.com/APL5/rest/services/FedContractHeatMaps/HeatMap_2009/MapServer",
+      "title": "/APL5/rest/services/FedContractHeatMaps/HeatMap_2009/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 24,
+      "weight": 1,
+      "x": -1923.495144721703,
+      "y": 2572.341585156292,
+      "px": -1960.7126737484662,
+      "py": 2399.8900216198613
+    },
+    {
+      "id": "432df5f289ee4e4c95a062fde1f00fdd",
+      "title": "Federal Contracts HeatMap 2009",
+      "type": "Map Service",
+      "size": 7,
+      "index": 25,
+      "weight": 2,
+      "x": 920.316646459771,
+      "y": 1012.5606964401131,
+      "px": 831.0016283648256,
+      "py": 905.5388149401165
+    },
+    {
+      "id": "http://maps.esri.com/APL5/rest/services/FedContractHeatMaps/HeatMap_2008/MapServer",
+      "title": "/APL5/rest/services/FedContractHeatMaps/HeatMap_2008/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 26,
+      "weight": 1,
+      "x": 10648.018557320656,
+      "y": 1634.0392473893912,
+      "px": 10128.79437152574,
+      "py": 1499.2555656262443
+    },
+    {
+      "id": "9b4f476842954c51b63fbe90b5e1f6d7",
+      "title": "Federal Contracts HeatMap 2008",
+      "type": "Map Service",
+      "size": 7,
+      "index": 27,
+      "weight": 2,
+      "x": 906.8834448705619,
+      "y": 1038.8162443026133,
+      "px": 807.6861425738053,
+      "py": 929.7419458214337
+    },
+    {
+      "id": "https://services.arcgisonline.com",
+      "title": "https://services.arcgisonline.com",
+      "size": 7,
+      "type": "Server",
+      "index": 28,
+      "weight": 2,
+      "x": 511.44849482428833,
+      "y": 477.2516987082356,
+      "px": 546.5592316956196,
+      "py": 473.6289199411058
+    },
+    {
+      "id": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+      "title": "/ArcGIS/rest/services/World_Imagery/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 29,
+      "weight": 1,
+      "x": 662.1168189116993,
+      "y": 419.75990581295247,
+      "px": 677.6560057670345,
+      "py": 425.10171613081667
+    },
+    {
+      "id": "bdf72a83ecfa4c0fa2879af2a1aa6c50",
+      "title": "15 Tectonic Plates",
+      "type": "Web Map",
+      "size": 10,
+      "index": 30,
+      "weight": 4,
+      "x": 685.4256600677569,
+      "y": 531.9001262237368,
+      "px": 717.1529514618761,
+      "py": 487.75298456446694
+    },
+    {
+      "id": "http://services.arcgisonline.com",
+      "title": "http://services.arcgisonline.com",
+      "size": 7,
+      "type": "Server",
+      "index": 31,
+      "weight": 12,
+      "x": 596.3412873831662,
+      "y": 865.139160922434,
+      "px": 546.9886657120984,
+      "py": 829.120528840231
+    },
+    {
+      "id": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+      "title": "/ArcGIS/rest/services/World_Topo_Map/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 32,
+      "weight": 1,
+      "x": 303.9987453094694,
+      "y": 480.02819878180395,
+      "px": 345.73010753740334,
+      "py": 513.8086745848842
+    },
+    {
+      "id": "5aba2ad661024178918d4001c84fbd6e",
+      "title": "Fish Habitat and Sea Level Rise",
+      "type": "Web Map",
+      "size": 10,
+      "index": 33,
+      "weight": 4,
+      "x": 799.9809930781532,
+      "y": 995.9553064041587,
+      "px": 783.2260986032092,
+      "py": 893.304149594949
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/FishHabitat/FishHabitat/MapServer",
+      "title": "/APL6/rest/services/FishHabitat/FishHabitat/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 34,
+      "weight": 1,
+      "x": 989.8754121433872,
+      "y": 1581.2799484098036,
+      "px": 901.2780249850586,
+      "py": 1507.3872033153489
+    },
+    {
+      "id": "5c0eba344dec4de7b8cd05086feef716",
+      "title": "Marathon Routes",
+      "type": "Web Map",
+      "size": 10,
+      "index": 35,
+      "weight": 4,
+      "x": 610.5076335009344,
+      "y": 652.4558550878303,
+      "px": 618.29594949269,
+      "py": 640.409756637896
+    },
+    {
+      "id": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer",
+      "title": "/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 36,
+      "weight": 1,
+      "x": 1041.4590470577136,
+      "y": 1047.9476382884277,
+      "px": 960.7230978309276,
+      "py": 985.4259228038409
+    },
+    {
+      "id": "cddda355919a409aa12b8f19e9a894d9",
+      "title": "Population Potential",
+      "type": "Web Map",
+      "size": 10,
+      "index": 37,
+      "weight": 4,
+      "x": 779.57545417266,
+      "y": 1008.1373500573504,
+      "px": 762.6005662718644,
+      "py": 905.6699728356446
+    },
+    {
+      "id": "http://maps.esri.com/APL9/rest/services/Population/Potential/MapServer",
+      "title": "/APL9/rest/services/Population/Potential/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 38,
+      "weight": 1,
+      "x": 879.8341535370226,
+      "y": 1346.1191798870243,
+      "px": 807.8580303010658,
+      "py": 1308.5555889281773
+    },
+    {
+      "id": "1e21fef19dd24154bb4c03388748e819",
+      "title": "Security Incidents FS",
+      "type": "Web Map",
+      "size": 10,
+      "index": 39,
+      "weight": 10,
+      "x": 775.2447550448006,
+      "y": 1169.0272196974556,
+      "px": 791.7365946271316,
+      "py": 1045.741073268194
+    },
+    {
+      "id": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer",
+      "title": "/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 40,
+      "weight": 1,
+      "x": 891.1435677469542,
+      "y": 720.7202666085491,
+      "px": 834.7993536812743,
+      "py": 716.034596165564
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/2",
+      "title": "/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/2",
+      "size": 5,
+      "type": "Service",
+      "index": 41,
+      "weight": 1,
+      "x": 792.2028060817885,
+      "y": 1113.3656551626214,
+      "px": 734.8669234556988,
+      "py": 1111.2933996200936
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/1",
+      "title": "/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/1",
+      "size": 5,
+      "type": "Service",
+      "index": 42,
+      "weight": 1,
+      "x": 821.7206188481351,
+      "y": 1154.966394617054,
+      "px": 758.0835950409829,
+      "py": 1144.8995141398677
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/0",
+      "title": "/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/0",
+      "size": 5,
+      "type": "Service",
+      "index": 43,
+      "weight": 1,
+      "x": 804.9495754160926,
+      "y": 1031.2844329874702,
+      "px": 745.9186899174096,
+      "py": 1043.6927215022747
+    },
+    {
+      "id": "5102c431945e4523a2b09f29d16c8cc2",
+      "title": "CCM-BG-uplift",
+      "type": "Web Map",
+      "size": 10,
+      "index": 44,
+      "weight": 6,
+      "x": 569.7230104352254,
+      "y": 716.2942861399196,
+      "px": 553.8900537263813,
+      "py": 706.018508224966
+    },
+    {
+      "id": "http://uplift.esri.com:12123",
+      "title": "http://uplift.esri.com:12123",
+      "size": 7,
+      "type": "Server",
+      "index": 45,
+      "weight": 2,
+      "x": 374.2122378437798,
+      "y": 793.5534604664829,
+      "px": 387.24766553074767,
+      "py": 789.3440203787567
+    },
+    {
+      "id": "http://uplift.esri.com:12123/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+      "title": "/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 46,
+      "weight": 1,
+      "x": 678.0156551041166,
+      "y": 838.991396862201,
+      "px": 610.4519501968472,
+      "py": 819.5044046527521
+    },
+    {
+      "id": "http://uplift:12123",
+      "title": "http://uplift:12123",
+      "size": 7,
+      "type": "Server",
+      "index": 47,
+      "weight": 2,
+      "x": 252.50629706769368,
+      "y": 731.9731255765333,
+      "px": 302.07160522557825,
+      "py": 747.4404883650777
+    },
+    {
+      "id": "http://uplift:12123/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+      "title": "/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 48,
+      "weight": 1,
+      "x": 332.9086473100491,
+      "y": 444.71869689248456,
+      "px": 365.22764645071146,
+      "py": 538.6177672339066
+    },
+    {
+      "id": "fb1c92f2e3ad4a4a9b3c051e94c80bd3",
+      "title": "CCM-BG-maps",
+      "type": "Web Map",
+      "size": 10,
+      "index": 49,
+      "weight": 4,
+      "x": 786.2090985221413,
+      "y": 994.1256128479728,
+      "px": 702.3402309064084,
+      "py": 920.3243713063958
+    },
+    {
+      "id": "http://maps.esri.com/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+      "title": "/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 50,
+      "weight": 1,
+      "x": 947.4726391245883,
+      "y": 1343.6029884492602,
+      "px": 934.1600642433573,
+      "py": 1370.6159846981557
+    },
+    {
+      "id": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer",
+      "title": "/ArcGIS/rest/services/World_Street_Map/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 51,
+      "weight": 1,
+      "x": 506.9981206821825,
+      "y": 784.6822456890427,
+      "px": 502.3153695685307,
+      "py": 818.749525318791
+    },
+    {
+      "id": "dc32e2aa9d0648f484a4aac55cbf7c0d",
+      "title": "Esri Worldwide Offices",
+      "type": "Web Map",
+      "size": 10,
+      "index": 52,
+      "weight": 2,
+      "x": 494.2093849921271,
+      "y": 846.6986728263183,
+      "px": 502.07974185995215,
+      "py": 819.8924753416744
+    },
+    {
+      "id": "https://maps.esri.com",
+      "title": "https://maps.esri.com",
+      "size": 7,
+      "type": "Server",
+      "index": 53,
+      "weight": 2,
+      "x": 893.3852219671458,
+      "y": 221.35611829520275,
+      "px": 893.3852219671458,
+      "py": 221.35611829520275
+    },
+    {
+      "id": "https://maps.esri.com/apl2/rest/services/Tectonics/PlateTectonic/MapServer",
+      "title": "/apl2/rest/services/Tectonics/PlateTectonic/MapServer",
+      "size": 5,
+      "type": "Service",
+      "index": 54,
+      "weight": 1,
+      "x": 893.3852219671458,
+      "y": 221.35611829520275,
+      "px": 893.3852219671458,
+      "py": 221.35611829520275
+    },
+    {
+      "id": "27655bf7b147494183fc3153048acec2",
+      "title": "TectonicPlates15",
+      "type": "Map Service",
+      "size": 7,
+      "index": 55,
+      "weight": 2,
+      "x": 893.3852219671458,
+      "y": 221.35611829520275,
+      "px": 893.3852219671458,
+      "py": 221.35611829520275
+    },
+    {
+      "id": "http://www.arcgis.com",
+      "title": "http://www.arcgis.com",
+      "size": 7,
+      "type": "Server",
+      "index": 56,
+      "weight": 2,
+      "x": 542.6981297564879,
+      "y": 374.54205790855474,
+      "px": 542.6981297564879,
+      "py": 374.54205790855474
+    },
+    {
+      "id": "http://www.arcgis.com/sharing/rest/content/items/3812ef1ed35046b5b220416214b4cb2e/data",
+      "title": "/sharing/rest/content/items/3812ef1ed35046b5b220416214b4cb2e/data",
+      "size": 5,
+      "type": "Service",
+      "index": 57,
+      "weight": 1,
+      "x": 542.6981297564879,
+      "y": 374.54205790855474,
+      "px": 542.6981297564879,
+      "py": 374.54205790855474
+    },
+    {
+      "id": "3812ef1ed35046b5b220416214b4cb2e",
+      "title": "Blue Blazes Ultra: 50K",
+      "type": "KML",
+      "size": 7,
+      "index": 58,
+      "weight": 2,
+      "x": 542.6981297564879,
+      "y": 374.54205790855474,
+      "px": 542.6981297564879,
+      "py": 374.54205790855474
+    },
+    {
+      "id": "http://services1.arcgis.com",
+      "title": "http://services1.arcgis.com",
+      "size": 7,
+      "type": "Server"
+    },
+    {
+      "id": "http://services1.arcgis.com/VAI453sU9tG9rSmh/arcgis/rest/services/Chicago_Marathon_Race_Course/FeatureServer/0",
+      "title": "/VAI453sU9tG9rSmh/arcgis/rest/services/Chicago_Marathon_Race_Course/FeatureServer/0",
+      "size": 5,
+      "type": "Service"
+    },
+    {
+      "id": "dca47b9463494c2189e45b890bf48161",
+      "title": "Chicago Marathon Race Course",
+      "type": "Feature Service",
+      "size": 7
+    }
+  ],
+  "links": [
+    {
+      "source": {
+        "id": "https://livefeeds.arcgis.com",
+        "title": "https://livefeeds.arcgis.com",
+        "size": 7,
+        "type": "Server",
+        "index": 1,
+        "weight": 2,
+        "x": 1277.5687861173135,
+        "y": 371.01284196691887,
+        "px": 1284.4974691374234,
+        "py": 347.1727779595779
+      },
+      "target": {
+        "id": "https://livefeeds.arcgis.com/arcgis/rest/services/LiveFeeds/NOAA_METAR_current_wind_speed_direction/MapServer",
+        "title": "/arcgis/rest/services/LiveFeeds/NOAA_METAR_current_wind_speed_direction/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 2,
+        "weight": 1,
+        "x": 1139.4960027984232,
+        "y": 252.39648899514677,
+        "px": 1147.2067825757217,
+        "py": 237.22396702338773
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "29d3ea0ef52a43abab68be309479f2ac",
+        "title": "Current Wind and Weather Conditions",
+        "type": "Map Service",
+        "size": 7,
+        "index": 3,
+        "weight": 2,
+        "x": 862.5111990836023,
+        "y": 503.23424976373593,
+        "px": 970.7981848489119,
+        "py": 402.680728736663
+      },
+      "target": {
+        "id": "https://livefeeds.arcgis.com",
+        "title": "https://livefeeds.arcgis.com",
+        "size": 7,
+        "type": "Server",
+        "index": 1,
+        "weight": 2,
+        "x": 1277.5687861173135,
+        "y": 371.01284196691887,
+        "px": 1284.4974691374234,
+        "py": 347.1727779595779
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "29d3ea0ef52a43abab68be309479f2ac",
+        "title": "Current Wind and Weather Conditions",
+        "type": "Map Service",
+        "size": 7,
+        "index": 3,
+        "weight": 2,
+        "x": 862.5111990836023,
+        "y": 503.23424976373593,
+        "px": 970.7981848489119,
+        "py": 402.680728736663
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "https://aom-us.nearmap.com",
+        "title": "https://aom-us.nearmap.com",
+        "size": 7,
+        "type": "Server",
+        "index": 4,
+        "weight": 2,
+        "x": 1216.7175662492866,
+        "y": 437.42215367416435,
+        "px": 1235.1076263719053,
+        "py": 484.0085610973804
+      },
+      "target": {
+        "id": "https://aom-us.nearmap.com/arcgis/rest/services/nearmap_us/ImageServer",
+        "title": "/arcgis/rest/services/nearmap_us/ImageServer",
+        "size": 5,
+        "type": "Service",
+        "index": 5,
+        "weight": 1,
+        "x": 1207.667080876145,
+        "y": 634.8283747000082,
+        "px": 1217.1140831545226,
+        "py": 663.4422424503107
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "8c03e0f13f524128abe36beaf1c76d52",
+        "title": "Nearmap US PhotoMaps",
+        "type": "Image Service",
+        "size": 7,
+        "index": 6,
+        "weight": 2,
+        "x": 837.8922279765688,
+        "y": 489.3402114413419,
+        "px": 958.9856079470044,
+        "py": 491.3589429033634
+      },
+      "target": {
+        "id": "https://aom-us.nearmap.com",
+        "title": "https://aom-us.nearmap.com",
+        "size": 7,
+        "type": "Server",
+        "index": 4,
+        "weight": 2,
+        "x": 1216.7175662492866,
+        "y": 437.42215367416435,
+        "px": 1235.1076263719053,
+        "py": 484.0085610973804
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "8c03e0f13f524128abe36beaf1c76d52",
+        "title": "Nearmap US PhotoMaps",
+        "type": "Image Service",
+        "size": 7,
+        "index": 6,
+        "weight": 2,
+        "x": 837.8922279765688,
+        "y": 489.3402114413419,
+        "px": 958.9856079470044,
+        "py": 491.3589429033634
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/ID_Awards/MapServer",
+        "title": "/APL6/rest/services/Recovery_IDCO/ID_Awards/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 8,
+        "weight": 1,
+        "x": -2015.008375364048,
+        "y": -1142.87246696139,
+        "px": -2057.154876255112,
+        "py": -1175.8350559213181
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "10082fa3b2714cc68a0f4950c7d848c9",
+        "title": "Recovery awards: state of Idaho",
+        "type": "Map Service",
+        "size": 7,
+        "index": 9,
+        "weight": 2,
+        "x": 1119.9952106443434,
+        "y": 945.2906391590195,
+        "px": 1031.1162836439973,
+        "py": 829.6230840141753
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "10082fa3b2714cc68a0f4950c7d848c9",
+        "title": "Recovery awards: state of Idaho",
+        "type": "Map Service",
+        "size": 7,
+        "index": 9,
+        "weight": 2,
+        "x": 1119.9952106443434,
+        "y": 945.2906391590195,
+        "px": 1031.1162836439973,
+        "py": 829.6230840141753
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/CO_Awards/MapServer",
+        "title": "/APL6/rest/services/Recovery_IDCO/CO_Awards/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 10,
+        "weight": 1,
+        "x": 1661.1594207394492,
+        "y": 544.859046390885,
+        "px": 1472.6944554760532,
+        "py": 455.05402329362744
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "3ad6730e8ccc410780e0c85cbc3553c8",
+        "title": "Recovery Awards: state of Colorado",
+        "type": "Map Service",
+        "size": 7,
+        "index": 11,
+        "weight": 2,
+        "x": 1088.9267772595738,
+        "y": 956.735998722288,
+        "px": 996.1539826929315,
+        "py": 843.81406676604
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "3ad6730e8ccc410780e0c85cbc3553c8",
+        "title": "Recovery Awards: state of Colorado",
+        "type": "Map Service",
+        "size": 7,
+        "index": 11,
+        "weight": 2,
+        "x": 1088.9267772595738,
+        "y": 956.735998722288,
+        "px": 996.1539826929315,
+        "py": 843.81406676604
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/apl14/rest/services/Medicare/HealthCareSpending/MapServer",
+        "title": "/apl14/rest/services/Medicare/HealthCareSpending/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 12,
+        "weight": 1,
+        "x": -657.2518043953603,
+        "y": 1909.9335482703925,
+        "px": -745.8263924630647,
+        "py": 1759.0495168057594
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "e39f8e6722f54344bde5ee626661aae5",
+        "title": "HealthCareSpending",
+        "type": "Map Service",
+        "size": 7,
+        "index": 13,
+        "weight": 2,
+        "x": 1064.151886677236,
+        "y": 964.242073966833,
+        "px": 970.3154682101803,
+        "py": 852.8218856555516
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "e39f8e6722f54344bde5ee626661aae5",
+        "title": "HealthCareSpending",
+        "type": "Map Service",
+        "size": 7,
+        "index": 13,
+        "weight": 2,
+        "x": 1064.151886677236,
+        "y": 964.242073966833,
+        "px": 970.3154682101803,
+        "py": 852.8218856555516
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/CO_Zips/MapServer",
+        "title": "/APL6/rest/services/Recovery_IDCO/CO_Zips/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 14,
+        "weight": 1,
+        "x": 2100.7079206868825,
+        "y": 514.7468206105642,
+        "px": 1893.8371592815704,
+        "py": 425.7212925392329
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "d6964807e9bd417e88c436da81369bd9",
+        "title": "Recovery awards aggregated by zip code: state of Colorado",
+        "type": "Map Service",
+        "size": 7,
+        "index": 15,
+        "weight": 2,
+        "x": 1043.7244021772958,
+        "y": 969.0170092290725,
+        "px": 950.2464498209832,
+        "py": 858.8550189758502
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "d6964807e9bd417e88c436da81369bd9",
+        "title": "Recovery awards aggregated by zip code: state of Colorado",
+        "type": "Map Service",
+        "size": 7,
+        "index": 15,
+        "weight": 2,
+        "x": 1043.7244021772958,
+        "y": 969.0170092290725,
+        "px": 950.2464498209832,
+        "py": 858.8550189758502
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/ID_Zips/MapServer",
+        "title": "/APL6/rest/services/Recovery_IDCO/ID_Zips/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 16,
+        "weight": 1,
+        "x": -927.2951833062884,
+        "y": 1633.2578990693373,
+        "px": -1004.4408361737239,
+        "py": 1495.9602861515468
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "bb14f55e5ade476b8e3901348101f7f1",
+        "title": "Recovery awards aggregated by zip code: state of Idaho",
+        "type": "Map Service",
+        "size": 7,
+        "index": 17,
+        "weight": 2,
+        "x": 1020.4426893508153,
+        "y": 974.6011931642075,
+        "px": 928.1368004996057,
+        "py": 865.3297984762452
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "bb14f55e5ade476b8e3901348101f7f1",
+        "title": "Recovery awards aggregated by zip code: state of Idaho",
+        "type": "Map Service",
+        "size": 7,
+        "index": 17,
+        "weight": 2,
+        "x": 1020.4426893508153,
+        "y": 974.6011931642075,
+        "px": 928.1368004996057,
+        "py": 865.3297984762452
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/ID_Counties/MapServer",
+        "title": "/APL6/rest/services/Recovery_IDCO/ID_Counties/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 18,
+        "weight": 1,
+        "x": -5082.141737380008,
+        "y": 1138.7380806098101,
+        "px": -5004.894562756898,
+        "py": 1021.2546302440554
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "d991cdb605024f09b0f149133f315307",
+        "title": "Recovery awards aggregated by county: state of Idaho",
+        "type": "Map Service",
+        "size": 7,
+        "index": 19,
+        "weight": 2,
+        "x": 992.4100378411472,
+        "y": 976.2308814383839,
+        "px": 901.9077986613512,
+        "py": 869.7274822496831
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "d991cdb605024f09b0f149133f315307",
+        "title": "Recovery awards aggregated by county: state of Idaho",
+        "type": "Map Service",
+        "size": 7,
+        "index": 19,
+        "weight": 2,
+        "x": 992.4100378411472,
+        "y": 976.2308814383839,
+        "px": 901.9077986613512,
+        "py": 869.7274822496831
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Recovery_IDCO/CO_Counties/MapServer",
+        "title": "/APL6/rest/services/Recovery_IDCO/CO_Counties/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 20,
+        "weight": 1,
+        "x": 2192.6492031449006,
+        "y": 4038.9719189904667,
+        "px": 1991.4119755995657,
+        "py": 3805.3609465453387
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "15133eac906f45faa26c45fc2c65f2be",
+        "title": "Recovery awards aggregated by county: state of Colorado",
+        "type": "Map Service",
+        "size": 7,
+        "index": 21,
+        "weight": 2,
+        "x": 974.9265824203634,
+        "y": 992.6767172762525,
+        "px": 883.3368396808632,
+        "py": 883.4269059639324
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "15133eac906f45faa26c45fc2c65f2be",
+        "title": "Recovery awards aggregated by county: state of Colorado",
+        "type": "Map Service",
+        "size": 7,
+        "index": 21,
+        "weight": 2,
+        "x": 974.9265824203634,
+        "y": 992.6767172762525,
+        "px": 883.3368396808632,
+        "py": 883.4269059639324
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL5/rest/services/FedContractHeatMaps/HeatMap_2010/MapServer",
+        "title": "/APL5/rest/services/FedContractHeatMaps/HeatMap_2010/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 22,
+        "weight": 1,
+        "x": 2520.691765659325,
+        "y": -182.8186422018279,
+        "px": 2304.238541582846,
+        "py": -243.32541874315066
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "f6c64004c0f94987a0ec8b9fe8117d7b",
+        "title": "Federal Contracts HeatMap 2010",
+        "type": "Map Service",
+        "size": 7,
+        "index": 23,
+        "weight": 2,
+        "x": 948.0835644379457,
+        "y": 992.1935056322772,
+        "px": 859.4415160180838,
+        "py": 888.3550639643738
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "f6c64004c0f94987a0ec8b9fe8117d7b",
+        "title": "Federal Contracts HeatMap 2010",
+        "type": "Map Service",
+        "size": 7,
+        "index": 23,
+        "weight": 2,
+        "x": 948.0835644379457,
+        "y": 992.1935056322772,
+        "px": 859.4415160180838,
+        "py": 888.3550639643738
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL5/rest/services/FedContractHeatMaps/HeatMap_2009/MapServer",
+        "title": "/APL5/rest/services/FedContractHeatMaps/HeatMap_2009/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 24,
+        "weight": 1,
+        "x": -1923.495144721703,
+        "y": 2572.341585156292,
+        "px": -1960.7126737484662,
+        "py": 2399.8900216198613
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "432df5f289ee4e4c95a062fde1f00fdd",
+        "title": "Federal Contracts HeatMap 2009",
+        "type": "Map Service",
+        "size": 7,
+        "index": 25,
+        "weight": 2,
+        "x": 920.316646459771,
+        "y": 1012.5606964401131,
+        "px": 831.0016283648256,
+        "py": 905.5388149401165
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "432df5f289ee4e4c95a062fde1f00fdd",
+        "title": "Federal Contracts HeatMap 2009",
+        "type": "Map Service",
+        "size": 7,
+        "index": 25,
+        "weight": 2,
+        "x": 920.316646459771,
+        "y": 1012.5606964401131,
+        "px": 831.0016283648256,
+        "py": 905.5388149401165
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL5/rest/services/FedContractHeatMaps/HeatMap_2008/MapServer",
+        "title": "/APL5/rest/services/FedContractHeatMaps/HeatMap_2008/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 26,
+        "weight": 1,
+        "x": 10648.018557320656,
+        "y": 1634.0392473893912,
+        "px": 10128.79437152574,
+        "py": 1499.2555656262443
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "9b4f476842954c51b63fbe90b5e1f6d7",
+        "title": "Federal Contracts HeatMap 2008",
+        "type": "Map Service",
+        "size": 7,
+        "index": 27,
+        "weight": 2,
+        "x": 906.8834448705619,
+        "y": 1038.8162443026133,
+        "px": 807.6861425738053,
+        "py": 929.7419458214337
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "9b4f476842954c51b63fbe90b5e1f6d7",
+        "title": "Federal Contracts HeatMap 2008",
+        "type": "Map Service",
+        "size": 7,
+        "index": 27,
+        "weight": 2,
+        "x": 906.8834448705619,
+        "y": 1038.8162443026133,
+        "px": 807.6861425738053,
+        "py": 929.7419458214337
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "https://services.arcgisonline.com",
+        "title": "https://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 28,
+        "weight": 2,
+        "x": 511.44849482428833,
+        "y": 477.2516987082356,
+        "px": 546.5592316956196,
+        "py": 473.6289199411058
+      },
+      "target": {
+        "id": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+        "title": "/ArcGIS/rest/services/World_Imagery/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 29,
+        "weight": 1,
+        "x": 662.1168189116993,
+        "y": 419.75990581295247,
+        "px": 677.6560057670345,
+        "py": 425.10171613081667
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "bdf72a83ecfa4c0fa2879af2a1aa6c50",
+        "title": "15 Tectonic Plates",
+        "type": "Web Map",
+        "size": 10,
+        "index": 30,
+        "weight": 4,
+        "x": 685.4256600677569,
+        "y": 531.9001262237368,
+        "px": 717.1529514618761,
+        "py": 487.75298456446694
+      },
+      "target": {
+        "id": "https://services.arcgisonline.com",
+        "title": "https://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 28,
+        "weight": 2,
+        "x": 511.44849482428833,
+        "y": 477.2516987082356,
+        "px": 546.5592316956196,
+        "py": 473.6289199411058
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "bdf72a83ecfa4c0fa2879af2a1aa6c50",
+        "title": "15 Tectonic Plates",
+        "type": "Web Map",
+        "size": 10,
+        "index": 30,
+        "weight": 4,
+        "x": 685.4256600677569,
+        "y": 531.9001262237368,
+        "px": 717.1529514618761,
+        "py": 487.75298456446694
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+        "title": "/ArcGIS/rest/services/World_Topo_Map/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 32,
+        "weight": 1,
+        "x": 303.9987453094694,
+        "y": 480.02819878180395,
+        "px": 345.73010753740334,
+        "py": 513.8086745848842
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "5aba2ad661024178918d4001c84fbd6e",
+        "title": "Fish Habitat and Sea Level Rise",
+        "type": "Web Map",
+        "size": 10,
+        "index": 33,
+        "weight": 4,
+        "x": 799.9809930781532,
+        "y": 995.9553064041587,
+        "px": 783.2260986032092,
+        "py": 893.304149594949
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "5aba2ad661024178918d4001c84fbd6e",
+        "title": "Fish Habitat and Sea Level Rise",
+        "type": "Web Map",
+        "size": 10,
+        "index": 33,
+        "weight": 4,
+        "x": 799.9809930781532,
+        "y": 995.9553064041587,
+        "px": 783.2260986032092,
+        "py": 893.304149594949
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/FishHabitat/FishHabitat/MapServer",
+        "title": "/APL6/rest/services/FishHabitat/FishHabitat/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 34,
+        "weight": 1,
+        "x": 989.8754121433872,
+        "y": 1581.2799484098036,
+        "px": 901.2780249850586,
+        "py": 1507.3872033153489
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "5aba2ad661024178918d4001c84fbd6e",
+        "title": "Fish Habitat and Sea Level Rise",
+        "type": "Web Map",
+        "size": 10,
+        "index": 33,
+        "weight": 4,
+        "x": 799.9809930781532,
+        "y": 995.9553064041587,
+        "px": 783.2260986032092,
+        "py": 893.304149594949
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "5aba2ad661024178918d4001c84fbd6e",
+        "title": "Fish Habitat and Sea Level Rise",
+        "type": "Web Map",
+        "size": 10,
+        "index": 33,
+        "weight": 4,
+        "x": 799.9809930781532,
+        "y": 995.9553064041587,
+        "px": 783.2260986032092,
+        "py": 893.304149594949
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "5c0eba344dec4de7b8cd05086feef716",
+        "title": "Marathon Routes",
+        "type": "Web Map",
+        "size": 10,
+        "index": 35,
+        "weight": 4,
+        "x": 610.5076335009344,
+        "y": 652.4558550878303,
+        "px": 618.29594949269,
+        "py": 640.409756637896
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "5c0eba344dec4de7b8cd05086feef716",
+        "title": "Marathon Routes",
+        "type": "Web Map",
+        "size": 10,
+        "index": 35,
+        "weight": 4,
+        "x": 610.5076335009344,
+        "y": 652.4558550878303,
+        "px": 618.29594949269,
+        "py": 640.409756637896
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer",
+        "title": "/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 36,
+        "weight": 1,
+        "x": 1041.4590470577136,
+        "y": 1047.9476382884277,
+        "px": 960.7230978309276,
+        "py": 985.4259228038409
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "cddda355919a409aa12b8f19e9a894d9",
+        "title": "Population Potential",
+        "type": "Web Map",
+        "size": 10,
+        "index": 37,
+        "weight": 4,
+        "x": 779.57545417266,
+        "y": 1008.1373500573504,
+        "px": 762.6005662718644,
+        "py": 905.6699728356446
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "cddda355919a409aa12b8f19e9a894d9",
+        "title": "Population Potential",
+        "type": "Web Map",
+        "size": 10,
+        "index": 37,
+        "weight": 4,
+        "x": 779.57545417266,
+        "y": 1008.1373500573504,
+        "px": 762.6005662718644,
+        "py": 905.6699728356446
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL9/rest/services/Population/Potential/MapServer",
+        "title": "/APL9/rest/services/Population/Potential/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 38,
+        "weight": 1,
+        "x": 879.8341535370226,
+        "y": 1346.1191798870243,
+        "px": 807.8580303010658,
+        "py": 1308.5555889281773
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "cddda355919a409aa12b8f19e9a894d9",
+        "title": "Population Potential",
+        "type": "Web Map",
+        "size": 10,
+        "index": 37,
+        "weight": 4,
+        "x": 779.57545417266,
+        "y": 1008.1373500573504,
+        "px": 762.6005662718644,
+        "py": 905.6699728356446
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "cddda355919a409aa12b8f19e9a894d9",
+        "title": "Population Potential",
+        "type": "Web Map",
+        "size": 10,
+        "index": 37,
+        "weight": 4,
+        "x": 779.57545417266,
+        "y": 1008.1373500573504,
+        "px": 762.6005662718644,
+        "py": 905.6699728356446
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer",
+        "title": "/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 40,
+        "weight": 1,
+        "x": 891.1435677469542,
+        "y": 720.7202666085491,
+        "px": 834.7993536812743,
+        "py": 716.034596165564
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/2",
+        "title": "/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/2",
+        "size": 5,
+        "type": "Service",
+        "index": 41,
+        "weight": 1,
+        "x": 792.2028060817885,
+        "y": 1113.3656551626214,
+        "px": 734.8669234556988,
+        "py": 1111.2933996200936
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/1",
+        "title": "/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/1",
+        "size": 5,
+        "type": "Service",
+        "index": 42,
+        "weight": 1,
+        "x": 821.7206188481351,
+        "y": 1154.966394617054,
+        "px": 758.0835950409829,
+        "py": 1144.8995141398677
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/0",
+        "title": "/APL6/rest/services/Incidents/SecurityIncidents/FeatureServer/0",
+        "size": 5,
+        "type": "Service",
+        "index": 43,
+        "weight": 1,
+        "x": 804.9495754160926,
+        "y": 1031.2844329874702,
+        "px": 745.9186899174096,
+        "py": 1043.6927215022747
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "1e21fef19dd24154bb4c03388748e819",
+        "title": "Security Incidents FS",
+        "type": "Web Map",
+        "size": 10,
+        "index": 39,
+        "weight": 10,
+        "x": 775.2447550448006,
+        "y": 1169.0272196974556,
+        "px": 791.7365946271316,
+        "py": 1045.741073268194
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "5102c431945e4523a2b09f29d16c8cc2",
+        "title": "CCM-BG-uplift",
+        "type": "Web Map",
+        "size": 10,
+        "index": 44,
+        "weight": 6,
+        "x": 569.7230104352254,
+        "y": 716.2942861399196,
+        "px": 553.8900537263813,
+        "py": 706.018508224966
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "5102c431945e4523a2b09f29d16c8cc2",
+        "title": "CCM-BG-uplift",
+        "type": "Web Map",
+        "size": 10,
+        "index": 44,
+        "weight": 6,
+        "x": 569.7230104352254,
+        "y": 716.2942861399196,
+        "px": 553.8900537263813,
+        "py": 706.018508224966
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://uplift.esri.com:12123",
+        "title": "http://uplift.esri.com:12123",
+        "size": 7,
+        "type": "Server",
+        "index": 45,
+        "weight": 2,
+        "x": 374.2122378437798,
+        "y": 793.5534604664829,
+        "px": 387.24766553074767,
+        "py": 789.3440203787567
+      },
+      "target": {
+        "id": "http://uplift.esri.com:12123/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+        "title": "/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 46,
+        "weight": 1,
+        "x": 678.0156551041166,
+        "y": 838.991396862201,
+        "px": 610.4519501968472,
+        "py": 819.5044046527521
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "5102c431945e4523a2b09f29d16c8cc2",
+        "title": "CCM-BG-uplift",
+        "type": "Web Map",
+        "size": 10,
+        "index": 44,
+        "weight": 6,
+        "x": 569.7230104352254,
+        "y": 716.2942861399196,
+        "px": 553.8900537263813,
+        "py": 706.018508224966
+      },
+      "target": {
+        "id": "http://uplift.esri.com:12123",
+        "title": "http://uplift.esri.com:12123",
+        "size": 7,
+        "type": "Server",
+        "index": 45,
+        "weight": 2,
+        "x": 374.2122378437798,
+        "y": 793.5534604664829,
+        "px": 387.24766553074767,
+        "py": 789.3440203787567
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "5102c431945e4523a2b09f29d16c8cc2",
+        "title": "CCM-BG-uplift",
+        "type": "Web Map",
+        "size": 10,
+        "index": 44,
+        "weight": 6,
+        "x": 569.7230104352254,
+        "y": 716.2942861399196,
+        "px": 553.8900537263813,
+        "py": 706.018508224966
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://uplift:12123",
+        "title": "http://uplift:12123",
+        "size": 7,
+        "type": "Server",
+        "index": 47,
+        "weight": 2,
+        "x": 252.50629706769368,
+        "y": 731.9731255765333,
+        "px": 302.07160522557825,
+        "py": 747.4404883650777
+      },
+      "target": {
+        "id": "http://uplift:12123/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+        "title": "/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 48,
+        "weight": 1,
+        "x": 332.9086473100491,
+        "y": 444.71869689248456,
+        "px": 365.22764645071146,
+        "py": 538.6177672339066
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "5102c431945e4523a2b09f29d16c8cc2",
+        "title": "CCM-BG-uplift",
+        "type": "Web Map",
+        "size": 10,
+        "index": 44,
+        "weight": 6,
+        "x": 569.7230104352254,
+        "y": 716.2942861399196,
+        "px": 553.8900537263813,
+        "py": 706.018508224966
+      },
+      "target": {
+        "id": "http://uplift:12123",
+        "title": "http://uplift:12123",
+        "size": 7,
+        "type": "Server",
+        "index": 47,
+        "weight": 2,
+        "x": 252.50629706769368,
+        "y": 731.9731255765333,
+        "px": 302.07160522557825,
+        "py": 747.4404883650777
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "5102c431945e4523a2b09f29d16c8cc2",
+        "title": "CCM-BG-uplift",
+        "type": "Web Map",
+        "size": 10,
+        "index": 44,
+        "weight": 6,
+        "x": 569.7230104352254,
+        "y": 716.2942861399196,
+        "px": 553.8900537263813,
+        "py": 706.018508224966
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "fb1c92f2e3ad4a4a9b3c051e94c80bd3",
+        "title": "CCM-BG-maps",
+        "type": "Web Map",
+        "size": 10,
+        "index": 49,
+        "weight": 4,
+        "x": 786.2090985221413,
+        "y": 994.1256128479728,
+        "px": 702.3402309064084,
+        "py": 920.3243713063958
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "fb1c92f2e3ad4a4a9b3c051e94c80bd3",
+        "title": "CCM-BG-maps",
+        "type": "Web Map",
+        "size": 10,
+        "index": 49,
+        "weight": 4,
+        "x": 786.2090985221413,
+        "y": 994.1256128479728,
+        "px": 702.3402309064084,
+        "py": 920.3243713063958
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "target": {
+        "id": "http://maps.esri.com/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+        "title": "/APL6/rest/services/CCM_Mobile_Bridge/BG/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 50,
+        "weight": 1,
+        "x": 947.4726391245883,
+        "y": 1343.6029884492602,
+        "px": 934.1600642433573,
+        "py": 1370.6159846981557
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "fb1c92f2e3ad4a4a9b3c051e94c80bd3",
+        "title": "CCM-BG-maps",
+        "type": "Web Map",
+        "size": 10,
+        "index": 49,
+        "weight": 4,
+        "x": 786.2090985221413,
+        "y": 994.1256128479728,
+        "px": 702.3402309064084,
+        "py": 920.3243713063958
+      },
+      "target": {
+        "id": "http://maps.esri.com",
+        "title": "http://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 7,
+        "weight": 32,
+        "x": 1179.5377833133834,
+        "y": 1319.521093276806,
+        "px": 1109.2503476789625,
+        "py": 1344.6261586557841
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "fb1c92f2e3ad4a4a9b3c051e94c80bd3",
+        "title": "CCM-BG-maps",
+        "type": "Web Map",
+        "size": 10,
+        "index": 49,
+        "weight": 4,
+        "x": 786.2090985221413,
+        "y": 994.1256128479728,
+        "px": 702.3402309064084,
+        "py": 920.3243713063958
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer",
+        "title": "/ArcGIS/rest/services/World_Street_Map/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 51,
+        "weight": 1,
+        "x": 506.9981206821825,
+        "y": 784.6822456890427,
+        "px": 502.3153695685307,
+        "py": 818.749525318791
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "dc32e2aa9d0648f484a4aac55cbf7c0d",
+        "title": "Esri Worldwide Offices",
+        "type": "Web Map",
+        "size": 10,
+        "index": 52,
+        "weight": 2,
+        "x": 494.2093849921271,
+        "y": 846.6986728263183,
+        "px": 502.07974185995215,
+        "py": 819.8924753416744
+      },
+      "target": {
+        "id": "http://services.arcgisonline.com",
+        "title": "http://services.arcgisonline.com",
+        "size": 7,
+        "type": "Server",
+        "index": 31,
+        "weight": 12,
+        "x": 596.3412873831662,
+        "y": 865.139160922434,
+        "px": 546.9886657120984,
+        "py": 829.120528840231
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "dc32e2aa9d0648f484a4aac55cbf7c0d",
+        "title": "Esri Worldwide Offices",
+        "type": "Web Map",
+        "size": 10,
+        "index": 52,
+        "weight": 2,
+        "x": 494.2093849921271,
+        "y": 846.6986728263183,
+        "px": 502.07974185995215,
+        "py": 819.8924753416744
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "https://maps.esri.com",
+        "title": "https://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 53,
+        "weight": 2,
+        "x": 893.3852219671458,
+        "y": 221.35611829520275,
+        "px": 893.3852219671458,
+        "py": 221.35611829520275
+      },
+      "target": {
+        "id": "https://maps.esri.com/apl2/rest/services/Tectonics/PlateTectonic/MapServer",
+        "title": "/apl2/rest/services/Tectonics/PlateTectonic/MapServer",
+        "size": 5,
+        "type": "Service",
+        "index": 54,
+        "weight": 1,
+        "x": 893.3852219671458,
+        "y": 221.35611829520275,
+        "px": 893.3852219671458,
+        "py": 221.35611829520275
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "27655bf7b147494183fc3153048acec2",
+        "title": "TectonicPlates15",
+        "type": "Map Service",
+        "size": 7,
+        "index": 55,
+        "weight": 2,
+        "x": 893.3852219671458,
+        "y": 221.35611829520275,
+        "px": 893.3852219671458,
+        "py": 221.35611829520275
+      },
+      "target": {
+        "id": "https://maps.esri.com",
+        "title": "https://maps.esri.com",
+        "size": 7,
+        "type": "Server",
+        "index": 53,
+        "weight": 2,
+        "x": 893.3852219671458,
+        "y": 221.35611829520275,
+        "px": 893.3852219671458,
+        "py": 221.35611829520275
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "bdf72a83ecfa4c0fa2879af2a1aa6c50",
+        "title": "15 Tectonic Plates",
+        "type": "Web Map",
+        "size": 10,
+        "index": 30,
+        "weight": 4,
+        "x": 685.4256600677569,
+        "y": 531.9001262237368,
+        "px": 717.1529514618761,
+        "py": 487.75298456446694
+      },
+      "target": {
+        "id": "27655bf7b147494183fc3153048acec2",
+        "title": "TectonicPlates15",
+        "type": "Map Service",
+        "size": 7,
+        "index": 55,
+        "weight": 2,
+        "x": 893.3852219671458,
+        "y": 221.35611829520275,
+        "px": 893.3852219671458,
+        "py": 221.35611829520275
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "bdf72a83ecfa4c0fa2879af2a1aa6c50",
+        "title": "15 Tectonic Plates",
+        "type": "Web Map",
+        "size": 10,
+        "index": 30,
+        "weight": 4,
+        "x": 685.4256600677569,
+        "y": 531.9001262237368,
+        "px": 717.1529514618761,
+        "py": 487.75298456446694
+      },
+      "bond": 2
+    },
+    {
+      "source": {
+        "id": "http://www.arcgis.com",
+        "title": "http://www.arcgis.com",
+        "size": 7,
+        "type": "Server",
+        "index": 56,
+        "weight": 2,
+        "x": 542.6981297564879,
+        "y": 374.54205790855474,
+        "px": 542.6981297564879,
+        "py": 374.54205790855474
+      },
+      "target": {
+        "id": "http://www.arcgis.com/sharing/rest/content/items/3812ef1ed35046b5b220416214b4cb2e/data",
+        "title": "/sharing/rest/content/items/3812ef1ed35046b5b220416214b4cb2e/data",
+        "size": 5,
+        "type": "Service",
+        "index": 57,
+        "weight": 1,
+        "x": 542.6981297564879,
+        "y": 374.54205790855474,
+        "px": 542.6981297564879,
+        "py": 374.54205790855474
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "3812ef1ed35046b5b220416214b4cb2e",
+        "title": "Blue Blazes Ultra: 50K",
+        "type": "KML",
+        "size": 7,
+        "index": 58,
+        "weight": 2,
+        "x": 542.6981297564879,
+        "y": 374.54205790855474,
+        "px": 542.6981297564879,
+        "py": 374.54205790855474
+      },
+      "target": {
+        "id": "http://www.arcgis.com",
+        "title": "http://www.arcgis.com",
+        "size": 7,
+        "type": "Server",
+        "index": 56,
+        "weight": 2,
+        "x": 542.6981297564879,
+        "y": 374.54205790855474,
+        "px": 542.6981297564879,
+        "py": 374.54205790855474
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "5c0eba344dec4de7b8cd05086feef716",
+        "title": "Marathon Routes",
+        "type": "Web Map",
+        "size": 10,
+        "index": 35,
+        "weight": 4,
+        "x": 610.5076335009344,
+        "y": 652.4558550878303,
+        "px": 618.29594949269,
+        "py": 640.409756637896
+      },
+      "target": {
+        "id": "3812ef1ed35046b5b220416214b4cb2e",
+        "title": "Blue Blazes Ultra: 50K",
+        "type": "KML",
+        "size": 7,
+        "index": 58,
+        "weight": 2,
+        "x": 542.6981297564879,
+        "y": 374.54205790855474,
+        "px": 542.6981297564879,
+        "py": 374.54205790855474
+      },
+      "bond": 1
+    },
+    {
+      "source": {
+        "id": "0c34a1d37c3442e795484b12d0e238a4",
+        "title": "Applications Prototype Lab",
+        "size": 20,
+        "type": "Group",
+        "index": 0,
+        "weight": 31,
+        "x": 465.2938422065316,
+        "y": 1031.6804637247185,
+        "px": 514.0983589235775,
+        "py": 896.3499610698665
+      },
+      "target": {
+        "id": "5c0eba344dec4de7b8cd05086feef716",
+        "title": "Marathon Routes",
+        "type": "Web Map",
+        "size": 10,
+        "index": 35,
+        "weight": 4,
+        "x": 610.5076335009344,
+        "y": 652.4558550878303,
+        "px": 618.29594949269,
+        "py": 640.409756637896
+      },
+      "bond": 2
+    },
+    {
+      "source": 59,
+      "target": 60,
+      "bond": 1
+    },
+    {
+      "source": 61,
+      "target": 59,
+      "bond": 1
+    },
+    {
+      "source": 35,
+      "target": 61,
+      "bond": 1
+    },
+    {
+      "source": 0,
+      "target": 35,
+      "bond": 2
+    }
+  ]
+}
